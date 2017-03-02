@@ -1,10 +1,14 @@
 {
   "name": "recognize-speech",
   "description": "Minimal library that record the audio from your input device, using the browser SpeechRecognition, and receive it as a Promise",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Leonardo Luiz <leonardokl@hotmail.com>",
   "main": "dist/recognizeSpeech.js",
-  "keywords": ["speech", "recognition", "SpeechRecognition"],
+  "keywords": [
+    "speech",
+    "recognition",
+    "SpeechRecognition"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/leonardokl/recognize-speech.git"
