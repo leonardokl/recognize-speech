@@ -1,0 +1,17 @@
+{
+  "name": "recognize-speech",
+  "version": "1.0.0",
+  "main": "dist/recognizeSpeech.js",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "babel --presets es2015 src/recognizeSpeech.js -o dist/recognizeSpeech.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-preset-es2015": "^6.22.0"
+  }
+}
