@@ -1,10 +1,14 @@
 {
   "name": "recognize-speech",
-  "description": "Minimal library that record the audio from your input device, using the browser SpeechRecognition, and receive it as a Promise",
+  "description": "Minimal library that record the audio from your input device and turn it to text, using the browser SpeechRecognition, receiveiving it as a Promise",
   "version": "1.1.0",
   "author": "Leonardo Luiz <leonardokl@hotmail.com>",
   "main": "dist/recognizeSpeech.js",
-  "keywords": ["speech", "recognition", "SpeechRecognition"],
+  "keywords": [
+    "speech",
+    "recognition",
+    "SpeechRecognition"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/leonardokl/recognize-speech.git"
@@ -14,11 +18,13 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "babel --presets es2015 src/recognizeSpeech.js -o dist/recognizeSpeech.js"
+    "build": "babel src/recognizeSpeech.js -o dist/recognizeSpeech.js"
   },
   "devDependencies": {
     "babel-cli": "^6.23.0",
     "babel-core": "^6.23.1",
+    "babel-preset-babili": "^0.0.12",
     "babel-preset-es2015": "^6.22.0"
-  }
+  },
+  "dependencies": {}
 }

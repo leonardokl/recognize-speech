@@ -1,6 +1,6 @@
 # RECOGNIZE SPEECH
 
-Minimal library that record the audio from your input device, using the browser SpeechRecognition, and receive it as a Promise
+Minimal library that record the audio from your input device and turn it to text, using the browser SpeechRecognition, receiveiving it as a Promise
 
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](http://standardjs.com/)
 
