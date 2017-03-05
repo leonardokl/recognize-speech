@@ -1,7 +1,7 @@
 {
   "name": "recognize-speech",
   "description": "Minimal library that record the audio from your input device and turn it to text, using the browser SpeechRecognition, receiveiving it as a Promise",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Leonardo Luiz <leonardokl@hotmail.com>",
   "main": "dist/recognizeSpeech.js",
   "keywords": [
