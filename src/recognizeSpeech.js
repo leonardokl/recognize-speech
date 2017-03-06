@@ -20,7 +20,6 @@ function recognizeSpeech ({ lang = 'en-US', interimResults = false, maxAlternati
 
     recognition.onspeechend = () => {
       recognition.stop()
-      reject(new Error('no-speech'))
     }
 
     recognition.onerror = ({ error }) => {
