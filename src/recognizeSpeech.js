@@ -1,4 +1,4 @@
-/* global webkitSpeechRecognition */
+/* globals webkitSpeechRecognition, SpeechRecognition */
 
 const SpeechRecognition = SpeechRecognition || webkitSpeechRecognition
 
